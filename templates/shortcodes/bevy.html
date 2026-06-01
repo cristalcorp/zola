@@ -1,0 +1,11 @@
+<div class="bevy-wrapper">
+  <canvas id="{{ id | default(value="bevy-canvas") }}"
+          width="{{ width | default(value=800) }}"
+          height="{{ height | default(value=600) }}">
+  </canvas>
+</div>
+
+<script type="module">
+  import init from "{{ js_path | safe }}";
+  init();
+</script>
