@@ -2,6 +2,7 @@
 base_url = "https://rust.cristalcorp.com"
 
 title = "cristalcorp"
+description = "An experiment where everything is Rust"
 
 theme = "terminus"
 # Whether to automatically compile all Sass files in the sass directory
